@@ -110,3 +110,21 @@ body {
     margin-right: 10px;
 }
 
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding:    2em;
+    
+}
+
+footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer span {
+    color: #0C2D57;
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 25px;
+
+}
