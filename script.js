@@ -13,6 +13,16 @@ async function getQuote(url) {
 
 getQuote(api_url);
 
-function tweet(){
-    window.open("https://twitter.com/intent/tweet?"  + quote.innerHTML + " ---- " + author.innerHTML, "Tweet Window", "width=600, height=400");
+function tweet() {
+    const quoteText = encodeURIComponent(quote.innerHTML);
+    const authorText = encodeURIComponent(author.innerHTML);
+    const tweetUrl = `https://twitter.com/intent/tweet?text=${quoteText} ----by ${authorText}`;
+    
+    window.open(tweetUrl, "Tweet Window", "width=600, height=300");
 }
+
+
+/*
+function tweet(){
+    window.open("https://twitter.com/intent/tweet?"  + quote.innerHTML + " ----by " + author.innerHTML, "Tweet Window", "width=600, height=300");
+}*/
