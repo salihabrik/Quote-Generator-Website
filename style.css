@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Protest Revolution', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -31,6 +31,7 @@ body {
     font-size: 32px;
     margin-bottom: 40px;
     position: relative;
+    font-family: 'Protest Revolution', sans-serif;
 }
 
 .quote-box h2::after {
@@ -43,6 +44,10 @@ body {
     left: 50%;
     transform: translateX(-50%);
     background: rgb(23, 124, 229);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
 .quote-box blockquote {
