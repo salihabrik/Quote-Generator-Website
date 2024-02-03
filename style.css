@@ -50,10 +50,15 @@ body {
 
 }
 
-.quote-box blockquote::before {
+.quote-box blockquote::before , .quote-box blockquote::after {
     content: '“';
-    font-size: 60px;
-    position: absolute;
-    left: 50px;
-    top: 0;
+    
 }
+
+.quote-box span {
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+
