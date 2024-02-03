@@ -12,3 +12,7 @@ async function getQuote(url) {
 }
 
 getQuote(api_url);
+
+function tweet(){
+    window.open("https://twitter.com/intent/tweet?" , "Tweet Window", "width=600, height=400");
+}
