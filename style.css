@@ -1,4 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Honk&family=Outfit:wght@300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Protest+Revolution&display=swap');
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Outfit:wght@300;400;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Protest+Revolution&display=swap');
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #bbc6fa;
+}
+
+.quote-box {
+    
+    background: #ffffff;
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 700px;
+    margin: 50px auto 20px; /* Centering the box */
+    position: relative;
+    padding: 80px;
+
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.quote-box h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+    font-family: 'Protest Revolution', sans-serif;
+}
+
+.quote-box h2::after {
+    content: '';
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(23, 124, 229);
+}
+
+.quote-box blockquote {
+    font-size: 26px;
+    min-height: 110px;
+}
+
+.quote-box blockquote::before,
+.quote-box blockquote::after {
+    content: '“';
+}
+
+.quote-box span {
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+
+.quote-box span::before {
+    content: '';
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    background: rgb(23, 124, 229);
+}
+
+.quote-box div {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box button {
+    background-color: rgb(23, 124, 229);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.quote-box button img {
+    margin-right: 10px;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding: .em;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer span {
+    color: #0C2D57;
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 25px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .quote-box {
+        width: 90%;
+    }
+}
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Honk&family=Outfit:wght@300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Protest+Revolution&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Outfit:wght@300;400;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Protest+Revolution&display=swap');
 
@@ -127,4 +253,4 @@ footer span {
     font-family: 'Protest Revolution', sans-serif;
     font-size: 25px;
 
-}
+}*/
